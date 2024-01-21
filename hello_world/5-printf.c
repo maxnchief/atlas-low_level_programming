@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - main function
+ *
+ * return - ends program
+ */
 
 int main(void)
 {
