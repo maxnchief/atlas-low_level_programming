@@ -3,7 +3,7 @@
 /** 
  * main - main function
  *
- * Return: ends program
+ * Return: 0 returns value
  *
  */
 
