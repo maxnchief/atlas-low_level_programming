@@ -4,6 +4,10 @@
  * mul - multiplies integers
  *
  * Return: result of mul funtion
+ *
+ * @a: perameter
+ *
+ * @b: perameter
  */
 int mul(int a, int b)
 
