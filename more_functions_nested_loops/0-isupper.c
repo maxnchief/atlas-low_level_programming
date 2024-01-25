@@ -2,16 +2,18 @@
 #include <stdio.h>
 
 /**
- * main - main function
+ *_isupper - checks if the character is uppercase
  *
- * Return: 
+ *Return: 1 or 0
+ *
+ * @c: funciton perameter
  */
 
 int _isupper(int c)
 
 {
-	if(c >= 'A' && c <= 'Z')
-		return(1);
+	if (c >= 'A' && c <= 'Z')
+		return (1);
 	else
-		return(0);
+		return (0);
 }
