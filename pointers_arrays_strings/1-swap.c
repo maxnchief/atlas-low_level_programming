@@ -2,23 +2,20 @@
 #include "main.h"
 
 /**
- * reset_to_98(int *n) - changes the value of the parameter
+ * swap_int - swaps int values
  *
- * @n: parameter
+ * @a: parameter
  *
- * return:0
- * */
+ * @b: parameter
+ *
+ * return: void
+ **/
 
-   
-void reset_to_98(int *n)
+void swap_int(int *a, int *b)
 {
-	int n = 402;
+	int temp;
 
-	int* ptr = &n;
-
-	*ptr = 98;
-
-	_putchar ("%c", n);
-	
-	return (0);
+	temp = *a;
+	*a = *b;
+	*b = temp;
 }
