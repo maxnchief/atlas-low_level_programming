@@ -4,7 +4,7 @@
 /**
  *_strlen - returns string lenght
  *@s: string count
- *return: string lenght
+ *Return: string lenght
  */
 
 int _strlen(char *s)
@@ -14,5 +14,5 @@ int _strlen(char *s)
 
 	for (i = 0 ; s[i] != '\0' ; i++)
 			count++;
-	return (count);	
+	return (count);
 }
