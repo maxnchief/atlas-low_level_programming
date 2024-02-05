@@ -1,24 +1,29 @@
 #include <stdio.h>
-#include "MAIN_H"
+#include "main.h"
+#include <string.h>
 /**
  * _strncat - concanates the strings
  *
- * @i - parameter
+ * @dest: parameter
  *
- * @j - parameter
+ * @src: parameter
  *
- * Return: 0
+ * @n: parameter
+ *
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
 
 {
-	int i, j = strlen(s);
+	int len = strlen(dest);
+	int i;
 
-	for (i = 0; s1[i] != '\0'; i++)
+	for (i = 0 ; i < n && *src != '\0' ; i++)
 	{
-		s[i + j] = s1[i];
+		dest[len + i] = src[i];
+		src++;
 	}
-
-	s[i + j] = '\0';
+	dest[len + i] = '\0';
+	return (dest);
 }
