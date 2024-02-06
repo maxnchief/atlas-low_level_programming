@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 #include <string.h>
-/*
+/**
  * _strncpy - coppies the string
  * @dest: parameter
  * @src: parameter
