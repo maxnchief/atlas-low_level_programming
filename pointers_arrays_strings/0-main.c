@@ -2,29 +2,17 @@
 #include <stdio.h>
 
 /**
- *  * simple_print_buffer - prints buffer in hexa
- *   * @buffer: the address of memory to print
- *    * @size: the size of the memory to print
- *     *
- *      * Return: Nothing.
- *       */
-void simple_print_buffer(char *buffer, unsigned int size)
+ *  * main - check the code 
+ *   *
+ *    * Return: Always 0.
+ *     */
+int main(void)
 {
-	        unsigned int i;
+	    int n;
 
-		        i = 0;
-			        while (i < size)
-					        {
-							                if (i % 10)
-										                {
-													                        printf(" ");
-																                }
-									                if (!(i % 10) && i)
-												                {
-															                        printf("\n");
-																		                }
-											                printf("0x%02x", buffer[i]);
-													                i++;
-															        }
-				        printf("\n");
+	        n = 402;
+		    printf("n=%d\n", n);
+		        reset_to_98(&n);
+			    printf("n=%d\n", n);
+			        return (0);
 }
